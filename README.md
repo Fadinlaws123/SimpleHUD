@@ -32,6 +32,7 @@
 * */pcooldown - Starts priority cooldown (Cancels ongoing priorities)*
 * */p - Set a waypoint to a postal given on the map!*
 * */postal - Set a waypoint to a postal given on the map!*
+* */aop - Changes the current Area of Patrol in the server!*
 
 # ❗ Notice
 
