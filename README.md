@@ -23,6 +23,16 @@
 
 * *Now that you installed SimpleHUD, you're going to want to configure some of the options that come with the script! To do so, all you have to do is open the Config.lua file and anything there is available to be either turned off, or edited in someway.*
 
+# ⌨️ Script Commands
+
+* */pstart - Starts a priority*
+* */pend -  Ends a priority*
+* */pjoin - Join an ongoing priority*
+* */pleave - Leave any ongoing priority*
+* */pcooldown - Starts priority cooldown (Cancels ongoing priorities)*
+* */p - Set a waypoint to a postal given on the map!*
+* */postal - Set a waypoint to a postal given on the map!*
+
 # ❗ Notice
 
 * *Some scripts require PERMISSIONS, the permission it will go off of is DISCORD PERMISSIONS! Meaning you need to connect a discord bot and your server's ID in the config.lua. If you have trouble or don't understand ask for help and I will help you out, or you can join our [discord](https://discord.gg/mxcu8Az8XG) for support.*
