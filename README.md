@@ -43,3 +43,5 @@
 1. *Add logging to priority script. To show who activates commands.*
 2. *Add a vehicle hud (Add GUIs to show your plate, engine, etc.)*
 3. *Add support for helicopters / planes when it comes to the Speedometer.*
+4. *Speedlimit HUD to show the speedlimit on a given road.*
+5. *Peacetime HUD for administrators to enabled peacetime.*
