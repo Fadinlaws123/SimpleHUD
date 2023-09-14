@@ -1,2 +1,0 @@
-1. Added custom weapon names to the weapon wheel! (Mark 2 supported)
-2. Made it so your radar hides if on foot, however, shows when in a vehicle.
