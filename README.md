@@ -34,9 +34,16 @@
 * */aop - Changes the current Area of Patrol in the server!*
 * */pt - Turns on or off the server's peacetime, restricting players from violence for an x amount of time.*
 
+# 🔧 Ace Permission Groups
+* *Priority Cooldown Ace Group - `add_ace group.admin sh.ptcd allow`*
+* *Peacetime Ace Group - `add_ace group.admin sh.pt allow`*
+* *Peacetime LEO byepass Ace Group - `add_ace group.leo sh.ptl allow`*
+* *Peacetime Staff Bypass Ace Group - `add_ace group.staff sh.pts allow`*
+* *AOP Ace Group - `add_ace group.admin sh.aop allow`*
+
 # ❗ Notice
 
-* *Some scripts require PERMISSIONS, the permission it will go off of is ACE PERMISSIONS! Meaning you need to connect a discord bot and your server's ID in the config.lua. If you have trouble or don't understand ask for help and I will help you out, or you can join our [discord](https://discord.gg/mxcu8Az8XG) for support.*
+* *Some scripts listed given with this release may require permissions to use them, the permission it will go off of is ACE permissions! If you have trouble or don't understand ask for help and I will help you out, or you can join our [discord](https://discord.gg/mxcu8Az8XG) for support.*
 
 # 💭 Planned updates.
 
