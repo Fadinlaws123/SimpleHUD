@@ -1,26 +1,3 @@
-function getUserDiscordInfo(discordUserId)
-    local data
-    PerformHttpRequest("https://discordapp.com/api/guilds/" .. Config_sv.guildID .. "/members/" .. discordUserId, function(errorCode, resultData, resultHeaders)
-        if errorCode ~= 200 then
-            return
-        end
-        local result = json.decode(resultData)
-        local roles = {}
-        for _, roleId in pairs(result.roles) do
-            roles[roleId] = roleId
-        end
-        data = {
-            nickname = result.nick,
-            discordTag = tostring(result.user.username) .. "#" .. tostring(result.user.discriminator),
-            roles = roles
-        }
-    end, "GET", "", {["Content-Type"] = "application/json", ["Authorization"] = "Bot " .. Config_sv.botToken})
-    while not data do
-        Citizen.Wait(0)
-    end
-    return data
-end
-
 function GetPlayerIdentifierFromType(type, source)
     local identifierCount = GetNumPlayerIdentifiers(source)
     for count = 0, identifierCount do
