@@ -258,17 +258,6 @@ CreateThread(function()
             DrawRect(0.139, 0.947, 0.035, 0.03, 0, 0, 0, 100)
             text(tostring(math.ceil(GetEntitySpeed(vehicle) * speedCalc)), 0.124, 0.931, 0.5, 4)
             text(speedText, 0.14, 0.94, 0.3, 4)
-            if (Config.Main.fuelHUD) then
-                local fuelLevel = (0.141 * GetVehicleFuelLevel(vehicle)) / 100
-                DrawRect(0.0855, 0.8, 0.141, 0.010 + 0.006, 40, 40, 40, 150)
-                if (Config.ElectricVehicles[GetEntityModel(vehicle)]) then
-                    DrawRect(0.0855, 0.8, 0.141, 0.010, 20, 140, 255, 100)
-                    DrawRect(0.0855 - (0.141 - fuelLevel) / 2, 0.8, fuelLevel, 0.010, 20, 140, 255, 255)
-                else
-                    DrawRect(0.0855, 0.8, 0.141, 0.010, 206, 145, 40, 100)
-                    DrawRect(0.0855 - (0.141 - fuelLevel) / 2, 0.8, fuelLevel, 0.010, 206, 145, 0, 255)
-                end
-            end
         end
     end
 end)
