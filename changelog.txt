@@ -1,0 +1,7 @@
+1. Fixed admin / law enforcement bypass function not working.
+2. Fixed online player count not working originally.
+3. renamed ace permissions~ fixed them and named them these:
+- Peacetime Bypass: pt.bypass
+- Cooldown Permission: sh.ptcd
+- Peacetime Enable / Disable Perm: sh.pt
+- AOP Change Permission: sh.aop
