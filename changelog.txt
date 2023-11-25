@@ -1,6 +1,0 @@
-1. Added peacetime functionality
-2. Added a speedlimit HUD to show the speedlimit on any given roadway.
-3. Remodel of the config files, making it so the main config.lua isn't clumped up.
-4. Removed the need for discord server ID + bot tokens, replaced with ace permissions.
-5. Rearranged some HUDs to fit new ones.
-6. Updated some scripts to announce who executes the command at the time. 
